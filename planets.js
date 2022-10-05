@@ -19,12 +19,7 @@ function planets(x,y,d,m){
 		this.fy+=f*sin(angle);
 	};
 	
-	this.update = function(){
-		this.vx+=(this.fx/this.m)*dt;
-		this.vy+=(this.fy/this.m)*dt;
-
-		this.px+=(this.vx*dt);
-		this.py+=(this.vy*dt);
+	
 
 	};
 
