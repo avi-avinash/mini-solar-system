@@ -58,15 +58,7 @@ function draw(){
 	for(var i=0; i<n; i++){
 		body[i].display();
 	}
-	for(var i=0; i<n; i++){
-		body[i].fx=0;
-		body[i].fy=0;
-		for(var j=0; j<n; j++){
-			if(i!=j){
-				body[i].attraction(body[j]);
-			}
-		}
-	}
+	
 
 	for(var i=0; i<n; i++){
 		body[i].update();
